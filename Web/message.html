@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <header>
+        <img src="./images/index/头像.jpg" alt=""width="136" height="108">
+        <div id="name">
+            <h2>不会做网站的鹅崽</h2>
+            <p>"保持心脏震荡，有人等你共鸣"</p>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">个人主页</a></li>
+            <li><a href="blog.html">博客日志</a></li>
+            <li><a href="scheldue.html">旅游计划</a></li>
+            <li class="selected"><a href="message.html">访客留言</a></li>
+        </ul>
+    </nav>
+    <div class="tableRow">
+		<p>
+          选择您的留言类型
+		</p>
+		<p>
+            <select name="beans">
+              <option value="合作">合作</option>
+              <option value="沟通">沟通</option>
+              <option value="建议">建议</option>
+            </select>
+		</p>
+	</div>
+	<div class="tableRow">
+		<p> 是否匿名: </p>
+		<p>
+            <input type="radio" name="匿名与否" value="匿名"> 匿名<br>
+            <input type="radio" name="匿名与否" value="不匿名" checked> 
+            不匿名
+		</p>
+	</div>
+	<div class="tableRow label">
+		<p> 希望在此日期前被回复: </p>
+		<p> <input type="date" name="date"> </p>
+	</div>
+	<div class="tableRow">
+		<p class="heading"> 您的信息 </p>
+		<p></p>
+	</div>
+	<div class="tableRow">
+		<p> 姓名: </p>
+		<p> <input type="text" name="Name" value="" placeholder="薛之谦" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> 联系方式: </p>
+		<p> <input type="tel" name="联系方式" value="" placeholder="310-555-1212" required> </p>
+	</div>
+	<div class="tableRow">
+		<p> 留言内容: </p>
+		<p>
+            <textarea name="comments"></textarea>
+		</p>
+	</div>
+	<div class="tableRow">
+		<p></p>
+		<p> <input type="submit" value="提交"> </p>
+	</div>
+    <footer>
+        Copyright @ 2023 by 不会做网站的鹅崽 
+        All Rights Reserved. 个人网站 版权所有</footer>
+    </body>
+</html>
